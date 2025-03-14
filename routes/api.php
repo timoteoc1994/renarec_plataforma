@@ -19,7 +19,9 @@ Route::post('registro_asociacion', [AsociationController::class, 'store'])->name
 Route::get('ciudades_disponibles', [AsociationController::class, 'city'])->name('ciudades_disponibles');
 //login asociaciones
 Route::post('login', [AsociationController::class, 'login'])->name('login');
-
+Route::post('login', [AsociationController::class, 'login'])->name('login');
+Route::post('login', [AsociationController::class, 'login'])->name('login');
+Route::post('login', [AsociationController::class, 'login'])->name('login');
 
 // Rutas públicas
 Route::post('/register', [AuthController::class, 'register']);
